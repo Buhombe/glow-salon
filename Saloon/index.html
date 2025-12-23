@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Glow Beauty Salon | Modern & Luxury</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- NAVIGATION -->
+  <nav class="navbar">
+    <div class="container nav-container">
+      <a href="#" class="logo">Glow Salon</a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#team">Team</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </nav>
+
+
+
+  <!-- HERO -->
+  <header class="hero">
+    <div class="hero-overlay">
+      <div class="hero-content">
+        <h1>Glow Beauty Saloon</h1>
+        <p>Expert Hair, Nails & Makeup Services in Dodoma</p>
+        <a href="#contact" class="btn-primary">Book Now</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="container">
+      <h2>About Us</h2>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>Glow Beauty Salon provides premium beauty services that enhance your natural glow. From hair styling, braiding, nails, to makeup, we ensure you look modern, stylish, and confident.</p>
+          <p>Our team of experienced professionals delivers personalized care to every client.</p>
+        </div>
+        <div class="about-image">
+          <img src="saloon.jpg" alt="Salon Image">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section id="services">
+    <div class="container">
+      <h2>Our Services</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>Hair Styling</h3>
+          <p>Professional haircuts and styling for all occasions.</p>
+        </div>
+        <div class="card">
+          <h3>Braiding</h3>
+          <p>Expert braiding with neat & long-lasting results.</p>
+        </div>
+        <div class="card">
+          <h3>Nail Care</h3>
+          <p>Manicure & pedicure for healthy and beautiful nails.</p>
+        </div>
+        <div class="card">
+          <h3>Makeup</h3>
+          <p>Flawless makeup for weddings, events, and photoshoots.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALLERY -->
+  <section id="gallery">
+    <div class="container">
+      <h2>Gallery</h2>
+      <div class="gallery-grid">
+        <img src="gallery1.webp" alt="Gallery Image">
+        <img src="gallery2.jpg" alt="Gallery Image">
+        <img src="gallery3.webp" alt="Gallery Image">
+        <img src="gallery4.jpg" alt="Gallery Image">
+      </div>
+    </div>
+  </section>
+
+  <!-- TEAM -->
+  <section id="team">
+    <div class="container">
+      <h2>Meet Our Team</h2>
+      <div class="grid">
+        <div class="card">
+          <img src="ndisha.jpg" alt="Team Member">
+          <h3>Esther Mpulan</h3>
+          <p>Lead Hair Stylist</p>
+        </div>
+        <div class="card">
+          <img src="frida.jpg" alt="Team Member">
+          <h3>Fridah</h3>
+          <p>Makeup Artist</p>
+        </div>
+        <div class="card">
+          <img src="leonardo.JPG" alt="Team Member">
+          <h3>Leonardo</h3>
+          <p>Nail Specialist</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section id="testimonials">
+    <div class="container">
+      <h2>What Clients Say</h2>
+      <div class="grid">
+        <div class="card testimonial">
+          <p>"Amazing service! My hair and nails have never looked this good."</p>
+          <h4>- Edgar Mazele.</h4>
+        </div>
+        <div class="card testimonial">
+          <p>"Professional and friendly staff. Highly recommended."</p>
+          <h4>- Zawad John.</h4>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <p>Phone: 0764323877</p>
+      <p>Location: Dodoma, Tanzania</p>
+      <p>Open: Mon - Sat | 8AM - 8PM</p>
+      <a href="https://wa.me/255764323877" class="btn-secondary">Chat on WhatsApp</a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2025 Glow Beauty Salon | Designed by Milton Buhombe</p>
+  </footer>
+
+  <script>
+    const hamburger = document.querySelector('.hamburger');
+    const navLinks = document.querySelector('.nav-links');
+
+    hamburger.addEventListener('click', () => {
+      navLinks.classList.toggle('active');
+    });
+  </script>
+
+</body>
+</html>
